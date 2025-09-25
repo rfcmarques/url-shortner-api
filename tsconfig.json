@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* ----- Configuração Base ----- */
+    "target": "ES2022", // Compila para uma versão moderna do JavaScript
+    "module": "NodeNext", // Sistema de módulos que o Node.js usa
+    "moduleResolution": "NodeNext", // Como resolver módulos, especialmente com 'type': 'module'
+    "esModuleInterop": true, // Permite melhor compatibilidade entre módulos
+    "isolatedModules": true, // Garante que cada ficheiro é tratado como um módulo separado
+    "forceConsistentCasingInFileNames": true, // Garante que os nomes dos ficheiros são consistentes
+
+    /* ----- Rigor do Código ----- */
+    "strict": true, // Ativa todas as verificações de tipo rigorosas
+    "skipLibCheck": true, // Poupa tempo ao não verificar os tipos das dependências
+
+    /* ----- Estrutura do Projeto ----- */
+    "rootDir": "./src", // Onde está o nosso código TypeScript
+    "outDir": "./dist" // Para onde vai o JavaScript compilado
+  },
+  "include": ["src/**/*"] // Diz ao compilador para incluir todos os ficheiros dentro da pasta 'src'
+}
