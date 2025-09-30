@@ -57,3 +57,6 @@ temp/
 
 # Optional: build packages
 *.tgz
+
+db-data/
+/src/generated/prisma
